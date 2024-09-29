@@ -36,14 +36,14 @@ cd Notification-Server
 
 ### 2. Set Up Environment Variables
 Create a .env file in the root directory with the following content:
-
+```bash
 PORT=5000
 DB_PASSWORD="Admin@Home563#"
 DB_NAME="testdb"
 DB_HOST="localhost"
 ENV="PROD"
 JWT_SECRET="JWT_secret@!23"
-
+```
 ### 3. **Docker Setup**
 
 This project is containerized using Docker, allowing you to run the Node.js application and PostgreSQL database in isolated containers.
