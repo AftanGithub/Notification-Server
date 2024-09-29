@@ -7,5 +7,5 @@ const router = express.Router();
 router.post('/send',authenticateUser,NotificationController.sendNotification);
 router.get('/',authenticateUser,NotificationController.getAllNotifications);
 router.put('/:id/read',authenticateUser,NotificationController.markNotificationAsRead)
-
+router.put("/mark-all-read", authenticateUser, NotificationController.markAllAsRead);
 module.exports = router;
