@@ -121,7 +121,7 @@ The app should now be running on http://localhost:5000
 
 ### **3. Send Notification**
 - **Endpoint:** `POST /notifications/send`
-- **Headers:** `Authorization: Bearer <JWT>`
+- **Headers:** `Authorization: <JWT>`
 - **Request Body:**
     ```json
     {
@@ -158,12 +158,12 @@ The app should now be running on http://localhost:5000
 
 ### **5. Mark Notification as Read**
 - **Endpoint:** `PUT /notifications/:id/read`
-- **Headers:** `Authorization: Bearer <JWT>`
+- **Headers:** `Authorization: <JWT>`
 - **Response:** `200 OK`
 
 ### **6. Mark All Notifications as Read**
 - **Endpoint:** `PUT /notifications/mark-all-read`
-- **Headers:** `Authorization: Bearer <JWT>`
+- **Headers:** `Authorization: <JWT>`
 - **Response:** `200 OK`
 
 ## **Real-Time Notification**
