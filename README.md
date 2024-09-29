@@ -70,8 +70,9 @@ PostgreSQL will be accessible at localhost:5432
 ```bash 
 docker ps
 ```
-### Stopping the App
-``` docker-compose down
+### Stopping the App:
+```bash 
+docker-compose down
 ```
 
 ### 4. **Running Locally Without Docker**
