@@ -55,10 +55,12 @@ This project is containerized using Docker, allowing you to run the Node.js appl
   - [Install Docker Compose](https://docs.docker.com/compose/install/)
 
 ### Create the Docker Network (if not created already): 
-```docker network create my-network
+```bash
+docker network create my-network
 ```
 ### Start the App Using Docker Compose:
-```docker-compose up -d
+```bash
+docker-compose up -d
 ```
 ### Access the application
 The Node.js app will be running at http://localhost:5000
