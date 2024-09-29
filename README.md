@@ -32,6 +32,7 @@ This is a Node.js application that provides a simple notification system with us
 ```bash
 git clone https://github.com/AftanGithub/Notification-Server
 cd Notification-Server
+```
 
 ### 2. Set Up Environment Variables
 Create a .env file in the root directory with the following content:
@@ -55,31 +56,34 @@ This project is containerized using Docker, allowing you to run the Node.js appl
 
 ### Create the Docker Network (if not created already): 
 ```docker network create my-network
-
+```
 ### Start the App Using Docker Compose:
 ```docker-compose up -d
-
+```
 ### Access the application
 The Node.js app will be running at http://localhost:5000
 PostgreSQL will be accessible at localhost:5432
 
 ### Verify the Containers are Running:
-```docker ps
-
+```bash 
+docker ps
+```
 ### Stopping the App
 ``` docker-compose down
-
+```
 
 ### 4. **Running Locally Without Docker**
 a. Install Dependencies
-- npm install
-
+```bash
+npm install
+```
 b. Start PostgreSQL Database
 Ensure PostgreSQL is running locally with the same credentials in the .env file.
 
 c. Run the Application
+```bash
 npm start
-
+```
 The app should now be running on http://localhost:5000
 
 
